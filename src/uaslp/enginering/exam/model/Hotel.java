@@ -8,6 +8,11 @@ public class Hotel {
     private String name;
     private ArrayList <Room> rooms;
 
+    public Hotel() {
+        reservations = new ArrayList<>();
+        rooms = new ArrayList<>();
+    }
+
     public String getName() {
         return name;
     }
@@ -25,13 +30,11 @@ public class Hotel {
     }
 
     public void addRoom(Room room){
-
+        rooms.add(room);
     }
 
 
-    public Hotel() {
-        reservations = new ArrayList<>();
-    }
+
 
     public void reserveRoom(int roomNumber, Guest guest, String arrivalDate, int nights) {
         Reservation reservation = new Reservation();

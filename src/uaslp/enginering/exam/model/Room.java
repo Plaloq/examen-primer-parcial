@@ -2,12 +2,12 @@ package uaslp.enginering.exam.model;
 
 public class Room {
     private int number;
-    private String status;
+    private String description;
     private RoomStatus roomStatus;
 
-    public Room(int number, String status, RoomStatus roomStatus) {
+    public Room(int number, String description, RoomStatus roomStatus) {
         this.number = number;
-        this.status = status;
+        this.description = description;
         this.roomStatus = roomStatus;
     }
 
@@ -19,12 +19,12 @@ public class Room {
         this.number = number;
     }
 
-    public String getStatus() {
-        return status;
+    public String getDescription() {
+        return description;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public RoomStatus getRoomStatus() {
