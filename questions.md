@@ -11,5 +11,5 @@
     > Estado: Atributos de los objetos y sus valores actuales; Comportamiento: Determina las acciones que un objeto puede realizar o a las que puede responder.
 
 1. ¿Con qué palabra reservada de java hacemos que un atributo o un método pernezcan a la clase y no al objeto?
-    > Private
+    > Static
 
