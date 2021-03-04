@@ -26,8 +26,8 @@ public class Guest {
         return Address;
     }
 
-    public void setAddress(String adress) {
-        Address = adress;
+    public void setAddress(String address) {
+        Address = address;
     }
 
     public String getCountry() {
