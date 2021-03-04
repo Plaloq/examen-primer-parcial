@@ -1,8 +1,8 @@
 1. Menciona los cuatro pilares de la programación orientada a objetos.
-    > Tu respuesta
+    > emcaptusalamiento, herencia, abstraccion y polimorfismo
 
 1. Se refiere a modelar un sistema tomando en cuenta solo las características de las entidades que afectan al sistema y dejando de lado lo irrelevante
-    > Tu respuesta
+    > Clases
 
 1. ¿A que pilar de la POO corresponde el uso de las palabras reservadas public y private ?
     > Tu respuesta
